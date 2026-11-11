@@ -1,0 +1,48 @@
+:root {
+  --verde-oscuro: #075b3b;
+  --verde: #087a4b;
+  --verde-2: #2d9564;
+  --verde-claro: #ddf0e4;
+  --blanco: #ffffff;
+  --gris-claro: #f4f6f4;
+  --gris-medio: #e5e7eb;
+  --gris-oscuro: #263238;
+  --amarillo: #f5d99a;
+  --rojo: #dc3545;
+}
+body {
+  background: var(--gris-claro);
+  color: var(--gris-oscuro);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+.btn-success {
+  background: var(--verde);
+  border-color: var(--verde);
+}
+.btn-success:hover {
+  background: var(--verde-oscuro);
+  border-color: var(--verde-oscuro);
+}
+.text-success {
+  color: var(--verde) !important;
+}
+.bg-success-subtle {
+  background: var(--verde-claro) !important;
+}
+.hero {
+  background:
+    linear-gradient(rgba(7, 91, 59, 0.75), rgba(7, 91, 59, 0.75)),
+    url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600")
+      center/cover no-repeat;
+  color: #fff;
+}
+.card {
+  border-radius: 1rem;
+}
+.navbar-brand img {
+  height: 36px;
+}
+.auth-bg {
+  background: linear-gradient(135deg, var(--verde-claro), var(--gris-claro));
+  min-height: 100vh;
+}

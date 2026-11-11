@@ -1,0 +1,25 @@
+.sidebar {
+  background: var(--verde-oscuro);
+  min-width: 220px;
+  min-height: 100vh;
+}
+.sidebar .nav-link {
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.sidebar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+main {
+  overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+  }
+}
